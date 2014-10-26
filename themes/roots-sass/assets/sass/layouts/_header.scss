@@ -1,0 +1,21 @@
+header.main-header{
+	background:$blue;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 0px; 
+		.navbar-nav a{
+			@include transition( 0.2s all ease-in-out);
+			color: #fff;
+			&:hover{
+				color: rgba(#fff,0.5);
+				@include box-shadow(inset 0px -5px 0px   #fff);
+				background:$blue;
+			}	
+		}
+		
+	.navbar-brand{
+		padding-top: 0px;   
+	} 
+
+}
+

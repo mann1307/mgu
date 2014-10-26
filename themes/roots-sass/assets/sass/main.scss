@@ -1,0 +1,53 @@
+// Bootstrap
+@import "_bootstrap.scss";
+
+// Roots
+@import "compass/css3";
+@import "_global.scss";              // Base styling & custom mixins
+@import "components/_buttons";       // Button tweaks
+@import "components/_forms";         // Form tweaks
+@import "components/_media";         // WordPress media
+@import "components/_wp-classes";    // WordPress generated classes
+@import "layouts/_general";          // General styling
+@import "layouts/_header";           // Header styling
+@import "layouts/_sidebar";          // Sidebar styling
+@import "layouts/_footer";           // Footer styling
+@import "layouts/_pages";            // Page styling
+@import "layouts/pages/_home";       // Home page styling
+@import "layouts/_posts";            // Post styling
+
+@font-face {
+    font-family: 'gotham_probold';
+    src: url('../fonts/gothaprobol-webfont.eot');
+    src: url('../fonts/gothaprobol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothaprobol-webfont.woff2') format('woff2'),
+         url('../fonts/gothaprobol-webfont.woff') format('woff'),
+         url('../fonts/gothaprobol-webfont.ttf') format('truetype'),
+         url('../fonts/gothaprobol-webfont.svg#gotham_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'PTSerifPro-ExtExtraBoldItalic';
+   src: url('../fonts/PTSerifPro-ExtExtraBoldItalic.eot?#iefix') format('embedded-opentype');
+   src: url('../fonts/PTSerifPro-ExtExtraBoldItalic.ttf')  format('truetype'),
+   		url('../fonts/PTSerifPro-ExtExtraBoldItalic.woff')  format('woff'),
+   	    url('../fonts/PTSerifPro-ExtExtraBoldItalic.svg#PTSerifPro-ExtExtraBoldItalic') format('svg');
+
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+body{
+	font-family: 'gotham_probold';
+}
+
+.main{
+	padding:  0px;
+}
+.line{
+	border-bottom: solid 1px $grey;
+}
